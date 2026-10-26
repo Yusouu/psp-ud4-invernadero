@@ -10,7 +10,7 @@ public class Fase1_Secuencial {
         Luz luz = new Luz();
         ProgramadorRiego riego = new ProgramadorRiego();
 
-        // Llamada explícita a run() uno tras otro (versión secuencial / lenta)
+
         temp.run();
         hum.run();
         luz.run();
