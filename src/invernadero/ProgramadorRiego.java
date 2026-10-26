@@ -1,3 +1,5 @@
+package invernadero;
+
 public class ProgramadorRiego extends Thread {
     private int ciclos = 5;
     private double litrosTotales = 0;
